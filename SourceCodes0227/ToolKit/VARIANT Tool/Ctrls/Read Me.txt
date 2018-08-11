@@ -1,1 +1,0 @@
-The Test version software and some VIs used to test should be put in this folder

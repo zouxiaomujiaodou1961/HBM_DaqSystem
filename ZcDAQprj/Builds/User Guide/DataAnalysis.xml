@@ -1,0 +1,96 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>11.0</Version>
+<Cluster>
+<Name>UserGuide In</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Title</Name>
+<Val>虚拟通道</Val>
+</String>
+<String>
+<Name>Description</Name>
+<Val>虚拟通道是相对于物理通道而言，即以物理通道为基础进行加、减、乘除等运算而得到的结果数据</Val>
+</String>
+<Array>
+<Name>UserGuide</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>簇</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>SubTitle</Name>
+<Val>使用指南</Val>
+</String>
+<Array>
+<Name>ItemsInfo</Name>
+<Dimsize>5</Dimsize>
+<Cluster>
+<Name>簇 2</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Item</Name>
+<Val>通道启用/禁用</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>勾选通道名称前的勾选框，可设置通道的启用和禁用，通道禁用时，该通道不参与计算</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>簇 2</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Item</Name>
+<Val>修改通道名称</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>点击通道名称，直接输入新的名称，当该名称已存在时，系统会弹出提示信息，否则修改名称生效</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>簇 2</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Item</Name>
+<Val>设置通道计算公式</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>点击公式，在弹出的对话框中编辑公式，公式错误时，在信息提示处显示错误提示信息，无误时，点击确定，更改生效</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>簇 2</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Item</Name>
+<Val>单位设置</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>点击单位，从下拉列表中选择合适的单位，也可直接输入单位</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>簇 2</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Item</Name>
+<Val>批量设置</Val>
+</String>
+<String>
+<Name>Content</Name>
+<Val>在“通道列表”即父项对应列进行上述操作后，所有通道对应的该列参数同时更改</Val>
+</String>
+</Cluster>
+</Array>
+</Cluster>
+</Array>
+<String>
+<Name>Summarize</Name>
+<Val>关于物理通道使用的更多信息，可通过帮助&gt;&gt;物理通道，查阅详细使用信息</Val>
+</String>
+</Cluster>
+</LVData>

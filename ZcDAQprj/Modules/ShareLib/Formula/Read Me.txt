@@ -1,0 +1,7 @@
+添加一个运算，要修改3个位置
+1）PSFormula_Formula Calc List.vi
+	添加运算符和该运算符的优先级
+2）PSFormula_Formula Match Datatypet.vi
+	添加该运算支持的输入输出类型
+3）PSFormula_Formula Calculate Step.vi
+	该运算的具体运算方法
